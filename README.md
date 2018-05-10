@@ -14,9 +14,13 @@
 ### version2.x:使用spring+springMVC实现
 	version2.0
 		--初始spring版本
+		
+### MVC
+![image](https://img-blog.csdn.net/20180510163217454?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dzaDU5NjgyMzkxOQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 ### 功能简介：
 	登录、注册、设置用户个人信息、修改密码、上传日记、上传图片、展示图片、使用python机器学习算法进行相册智能操作......
+![image](https://img-blog.csdn.net/20180510163251506?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dzaDU5NjgyMzkxOQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 	
 ### 源代码使用需修改：
 	com.wang.util包->HOST接口，修改ip，若为本机tomcat启动修改为localhost，若为云服务tomcat启动修改为对应ip地址  
