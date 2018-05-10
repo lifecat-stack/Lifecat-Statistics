@@ -1,6 +1,29 @@
 # LifeCat 智能成长相册管理网站
 ![image](https://img-blog.csdn.net/20180421144930399?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dzaDU5NjgyMzkxOQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
+## web开发设计
+使用Intellijidea进行软件的开发，前端静态页面采用html+css+bootstrap实现，同时采用javascript+jQuery+Ajax进行了页面的动态脚本设置。后端基于MVC架构，表现层采用jsp进行动态页面开发，控制层采用servlet，模型层使用Javabean实现，实现了松耦合的设计，加入了表单验证机制，能够更有效地进行访问控制。Web容器使用tomcat部署，tomcat提供了多线程支持、生命周期管理以及安全性配置等功能，使得web应用具有健壮性。
+
+### 主要页面：
+
+	产品官网：通过WordPress框架进行开发，进行产品的展示及宣传
+
+	相册主页：通过JavaScript进行动态的主页展示和用户的登录/注册功能
+
+	用户界面：通过JavaScript脚本将页面分为“用户信息”“成长寄语”“成长相册”三个模块，根据点击选择每次显示其中一个，用户可以在此进行设置信息、修改密码等操作，并通过链接访问到其他界面。
+
+	相册展示页面：通过访问数据库获取图片url，然后调用IO流将图片显示到界面。
+
+### 主要功能：
+
+	用户登录/注册：通过jdbc操作user数据表，验证及更新用户账户信息
+
+	用户信息修改：通过jdbc操作usermsg数据表，能够设置用户的信息
+
+	图片上传：通过javaIO流，将要上传的图片以二进制流方式写入服务器文件夹，并在upimage数据表中存储图片在服务器上的路径。
+
+	图片展示：根据用户id从upimage数据表获取图片的存储路径，通过javaIO流方式将图片信息传输显示到前端显示页面。
+
 ## 版本管理
 ### version1.x:使用jsp+servlet+jdbc实现
 	version1.0
