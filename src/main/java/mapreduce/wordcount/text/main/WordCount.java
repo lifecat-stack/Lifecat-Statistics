@@ -1,21 +1,17 @@
-package text.main;
+package mapreduce.wordcount.text.main;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import text.map.TokenizerMapper;
-import text.reduce.IntSumReduce;
-import text.util.FileUtil;
+import mapreduce.wordcount.text.map.TokenizerMapper;
+import mapreduce.wordcount.text.reduce.IntSumReduce;
+import mapreduce.wordcount.text.util.FileUtil;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.StringTokenizer;
 
 
 public class WordCount {

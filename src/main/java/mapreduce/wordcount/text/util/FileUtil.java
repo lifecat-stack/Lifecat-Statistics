@@ -1,4 +1,4 @@
-package text.util;
+package mapreduce.wordcount.text.util;
 
 import java.io.File;
 
