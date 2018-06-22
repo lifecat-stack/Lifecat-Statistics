@@ -33,6 +33,8 @@ README -- Hadoop
 #### 分布式集群环境
 使用2台linux(centos)系统作为分布式环境，进行分布式计算
 
+[centos7配置Hadoop环境](https://blog.csdn.net/wsh596823919/article/details/80776007)
+
 |主机|配置|
 |---|---
 |HDFS1|![host1](../Image/host1.png)
