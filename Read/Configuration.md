@@ -1,25 +1,5 @@
-README -- Hadoop
-===============================
-:elephant: :elephant: :elephant:
-
-#### 基于Hadoop分布式计算环境，
-#### 为lifecat系统图像运算提供高性能计算环境
-#### 同时对lifecat产生的数据进行处理与分析
-
--------------------------------
-### _MapReduce提供图像运算支持_
-:cloud: :cloud: :cloud: image包
-
--------------------------------
-### _MapReduce提供数据分析支持_
-:cloud: :cloud: :cloud: data包
-
--------------------------------
-### _MapReduce开发测试Demo_
-:cloud: :cloud: :cloud: text包
-
--------------------------------
-## _[配置Apache Hadoop开发环境](Read/Configuration.md)_
+## 配置Apache Hadoop开发环境
+===================
 :elephant: :elephant: :elephant: 
 
 ### Linux(ubuntu16.04)环境下配置Hadoop
