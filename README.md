@@ -1,6 +1,16 @@
-README -- Hadoop
+README -- LifeCat Hadoop
 ===============================
 :elephant: :elephant: :elephant: 
+
+|title|content|
+|:---:|:---:
+|desc|智能成长相册系统LifeCat-Hadoop
+|author|ten
+|version|Version 1
+|date|2018
+|framework|Hadoop
+******************************************************************************
+
 ```
 最简单的MapReduce应用程序至少包含 3 个部分：
 一个 Map 函数、一个 Reduce 函数和一个 main 函数。
@@ -91,3 +101,22 @@ Reduce操作是对map的结果进行排序，合并，最后得出词频。
 在windows10环境中通过伪分布式环境进行项目的开发
 
 [win10配置Hadoop环境](https://blog.csdn.net/wsh596823919/article/details/80774805)
+
+-----------------------------------
+  #### _@项目分析_
+  
+  [项目流程分析介绍](https://zhuanlan.zhihu.com/p/41211018) (点击链接)  
+  
+  进行了项目结构、项目目录、项目流程的分析
+
+******************************************************************************
+### 相关项目：
+ #### [LifeCat version1 servlet基础Javaweb服务网站](https://github.com/kevinten10/lifecatweb)
+ #### [LifeCat version2 version1相应SSM后台管理系统](https://github.com/kevinten10/SSM-lifecat)
+ #### [LifeCat version3 前后端分离springboot后端](https://github.com/kevinten10/springboot-lifecat)
+ #### [LifeCat version3 前后端分离vuejs前端](https://github.com/kevinten10/Web-lifecat)
+ *****************************************************************************
+  #### [LifeCat wechat 微信小程序](https://github.com/kevinten10/WeChat-lifecat)
+  #### [LifeCat android 相应Android相册应用](https://github.com/kevinten10/Android-lifecat)
+  #### [LifeCat python 机器学习进行图像智能处理](https://github.com/kevinten10/Python-lifecat)
+
